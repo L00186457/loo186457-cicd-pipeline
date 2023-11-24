@@ -1,0 +1,19 @@
+  {
+    "name": "loo186457-cicd-pipeline",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "jest",
+        "test:unit": "jest app.test.js",
+        "test:staging": "jest staging.test.js",
+        "test:login": "jest login.test.js"
+    },
+    "devDependencies": {
+      "@testing-library/dom": "^7.26.5",
+      "@testing-library/jest-dom": "^5.14.1",
+      "jest": "^27.5.1",
+      "jest-environment-jsdom": "^29.7.0",
+      "ts-jest": "^27.1.5",
+      "typescript": "^4.4.3"
+    }
+  }
+  
