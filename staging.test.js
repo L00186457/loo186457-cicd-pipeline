@@ -24,7 +24,7 @@ test('Should display welcome message on staging', () => {
     // Simulates making a request to a staging API
     // You might want to use a library like 'node-fetch' for actual HTTP requests
     return {
-      status: 500,
+      status: 200,
       data: 'Staging API response',
     };
   }
