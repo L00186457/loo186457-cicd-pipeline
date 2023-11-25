@@ -2,7 +2,7 @@
     "name": "loo186457-cicd-pipeline",
     "version": "1.0.0",
     "scripts": {
-        "test": "jest",
+        "test": "jest $@",
         "test:unit": "jest app.test.js",
         "test:staging": "jest staging.test.js",
         "test:login": "jest login.test.js"
