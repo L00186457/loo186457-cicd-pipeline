@@ -15,7 +15,7 @@ function getWelcomeMessage() {
 
 async function fetchStagingAPI() {
   return {
-    status: 200,
+    status: 500,
     data: 'Staging API response',
   };
 }
