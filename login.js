@@ -5,7 +5,7 @@ async function login(username, password) {
       if (username === 'user' && password === 'pass') {
         resolve('Login successful!');
       } else {
-        reject(new Error('Invalid username or password')); // Return an error object
+        reject(new Error('Invalid username or password')); 
       }
     }, 1000);
   });
